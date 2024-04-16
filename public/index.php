@@ -11,6 +11,7 @@ use Symfony\Component\HttpFoundation\Response;
 $dotenv = Dotenv::createImmutable(__DIR__ . '/..');
 $dotenv->load();
 
+ini_set('display_errors', env('APP_ERRORS'));
 
 $db_config = require dirname(__DIR__) . '/config/database.php';
 $capsule = new Capsule;
