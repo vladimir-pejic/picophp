@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use PicoPHP\Base\Controller;
+use PicoPHP\Classes\Controller;
 use App\Models\UserModel;
 
 class UserController extends Controller {

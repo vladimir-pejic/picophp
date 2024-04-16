@@ -4,7 +4,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 use Dotenv\Dotenv;
 use Illuminate\Database\Capsule\Manager as Capsule;
-use PicoPHP\Base\Router;
+use PicoPHP\Classes\Router;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 

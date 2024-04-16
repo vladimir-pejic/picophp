@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use PicoPHP\Base\Model;
+use PicoPHP\Classes\Model;
 
 class UserModel extends Model {
     protected $table = 'users';

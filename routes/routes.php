@@ -1,7 +1,7 @@
 <?php
-use PicoPHP\Base\Router;
 use App\Controllers\UserController;
 use App\Middleware\IdCheckMiddleware;
+use PicoPHP\Classes\Router;
 use Symfony\Component\HttpFoundation\Response;
 
 return function (Router $router) {

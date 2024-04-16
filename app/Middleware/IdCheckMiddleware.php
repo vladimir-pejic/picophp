@@ -2,8 +2,8 @@
 
 namespace App\Middleware;
 
-use PicoPHP\Base\MiddlewareInterface;
-use PicoPHP\Base\Traits\JsonResponse;
+use PicoPHP\Interfaces\MiddlewareInterface;
+use PicoPHP\Traits\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
