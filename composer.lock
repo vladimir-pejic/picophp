@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5e8dc50aff1540c32ce5e63a950f9013",
+    "content-hash": "14e00fcdfe6f857f253e0c4e34370f65",
     "packages": [
         {
             "name": "brick/math",
@@ -858,6 +858,48 @@
             "time": "2023-11-12T21:59:55+00:00"
         },
         {
+            "name": "picophp/core",
+            "version": "v0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vladimir-pejic/picophp-core.git",
+                "reference": "149b549a17b0e9908cbd16aeae5f7329ff5a12ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vladimir-pejic/picophp-core/zipball/149b549a17b0e9908cbd16aeae5f7329ff5a12ab",
+                "reference": "149b549a17b0e9908cbd16aeae5f7329ff5a12ab",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^11.3",
+                "php": "^8.2",
+                "symfony/http-foundation": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PicoPHP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vladimir Pejic",
+                    "email": "vladimir.pejic@gmail.com"
+                }
+            ],
+            "description": "PicoPHP Framework Core",
+            "support": {
+                "issues": "https://github.com/vladimir-pejic/picophp-core/issues",
+                "source": "https://github.com/vladimir-pejic/picophp-core/tree/v0.2.2"
+            },
+            "time": "2024-04-20T21:32:39+00:00"
+        },
+        {
             "name": "psr/clock",
             "version": "1.0.0",
             "source": {
@@ -1647,48 +1689,6 @@
                 }
             ],
             "time": "2024-01-23T14:51:35+00:00"
-        },
-        {
-            "name": "vladimir-pejic/picophp-core",
-            "version": "v0.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vladimir-pejic/picophp-core.git",
-                "reference": "fbf6e82bc9f837e9c3c1126d5eac6b332e24d735"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vladimir-pejic/picophp-core/zipball/fbf6e82bc9f837e9c3c1126d5eac6b332e24d735",
-                "reference": "fbf6e82bc9f837e9c3c1126d5eac6b332e24d735",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/database": "^11.3",
-                "php": "^8.2",
-                "symfony/http-foundation": "^7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "PicoPHP\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Vladimir Pejic",
-                    "email": "vladimir.pejic@gmail.com"
-                }
-            ],
-            "description": "PicoPHP Framework Core",
-            "support": {
-                "issues": "https://github.com/vladimir-pejic/picophp-core/issues",
-                "source": "https://github.com/vladimir-pejic/picophp-core/tree/v0.2.1"
-            },
-            "time": "2024-04-16T15:05:10+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
