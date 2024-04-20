@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21660dac839d6702ebc276382357577a",
+    "content-hash": "5e8dc50aff1540c32ce5e63a950f9013",
     "packages": [
         {
             "name": "brick/math",
@@ -1650,7 +1650,7 @@
         },
         {
             "name": "vladimir-pejic/picophp-core",
-            "version": "0.2.0",
+            "version": "v0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vladimir-pejic/picophp-core.git",
@@ -1686,7 +1686,7 @@
             "description": "PicoPHP Framework Core",
             "support": {
                 "issues": "https://github.com/vladimir-pejic/picophp-core/issues",
-                "source": "https://github.com/vladimir-pejic/picophp-core/tree/0.2.0"
+                "source": "https://github.com/vladimir-pejic/picophp-core/tree/v0.2.1"
             },
             "time": "2024-04-16T15:05:10+00:00"
         },
