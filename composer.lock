@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1918581fc27de00da96f6b14a04f8762",
+    "content-hash": "21660dac839d6702ebc276382357577a",
     "packages": [
         {
             "name": "brick/math",
@@ -1650,16 +1650,16 @@
         },
         {
             "name": "vladimir-pejic/picophp-core",
-            "version": "0.1",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vladimir-pejic/picophp-core.git",
-                "reference": "2303638220240689ea8ba1a0faeda5885d1be8ce"
+                "reference": "fbf6e82bc9f837e9c3c1126d5eac6b332e24d735"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vladimir-pejic/picophp-core/zipball/2303638220240689ea8ba1a0faeda5885d1be8ce",
-                "reference": "2303638220240689ea8ba1a0faeda5885d1be8ce",
+                "url": "https://api.github.com/repos/vladimir-pejic/picophp-core/zipball/fbf6e82bc9f837e9c3c1126d5eac6b332e24d735",
+                "reference": "fbf6e82bc9f837e9c3c1126d5eac6b332e24d735",
                 "shasum": ""
             },
             "require": {
@@ -1686,9 +1686,9 @@
             "description": "PicoPHP Framework Core",
             "support": {
                 "issues": "https://github.com/vladimir-pejic/picophp-core/issues",
-                "source": "https://github.com/vladimir-pejic/picophp-core/tree/0.1"
+                "source": "https://github.com/vladimir-pejic/picophp-core/tree/0.2.0"
             },
-            "time": "2024-04-15T20:08:42+00:00"
+            "time": "2024-04-16T15:05:10+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

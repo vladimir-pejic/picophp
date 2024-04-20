@@ -5,7 +5,7 @@
     "license": "MIT",
     "require": {
         "vlucas/phpdotenv": "^5.6",
-        "vladimir-pejic/picophp-core": "^0.1.0"
+        "vladimir-pejic/picophp-core": "^0.2.0"
     },
     "autoload": {
         "psr-4": {
